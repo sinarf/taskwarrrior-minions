@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "taskwarrior-minions"
 version = "0.1.0"
-description = ""
-authors = ["Michel Blavin <michel@blavin.fr>"]
+description = "Some minions for the task warriors."
+authors = ["Michel (sinarf) Blavin <sinarf@sinarf.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+tasklib = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
